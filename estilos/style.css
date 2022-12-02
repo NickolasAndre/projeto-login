@@ -77,8 +77,7 @@ div.campo label{
 }
 
 div.campo > .material-icons{
-    color: white;
-    background-color: black;
+    color: white; 
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -87,8 +86,10 @@ div.campo > .material-icons{
 div.campo > input{
     background-color: #76e0dd;
     font-size: 1em;
-    width: ;
+    width: calc(100% - 45px);
     height: 100%;
+    border: 0px;
+    transform: translateY(-10px);
     border-radius: 8px;
     
 }
