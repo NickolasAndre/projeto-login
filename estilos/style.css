@@ -68,12 +68,29 @@ form > div.campo{
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo label{
     display: none;
+}
+
+div.campo > .material-icons{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #76e0dd;
+    font-size: 1em;
+    width: ;
+    height: 100%;
+    border-radius: 8px;
+    
 }
 
 form > input[type=submit]{
